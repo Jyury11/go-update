@@ -12,8 +12,9 @@ builds:
       - windows
       - darwin
 archives:
-  - name_template: "{{.ProjectName}}{{.Env.USER}}"
-  - replacements:
+  id: go-update
+  name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+  replacements:
       darwin: Darwin
       linux: Linux
       windows: Windows
@@ -26,4 +27,4 @@ changelog:
       - '^docs:'
       - '^test:'
 release:
-  name_template: "{{.ProjectName}}{{.Env.USER}}"
+  name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
