@@ -12,9 +12,6 @@ builds:
       - windows
       - darwin
 archives:
-  - format_overrides:
-    - goos: windows
-      format: zip
   - replacements:
       darwin: Darwin
       linux: Linux
