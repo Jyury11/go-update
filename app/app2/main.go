@@ -8,7 +8,7 @@ import (
 	"github.com/rhysd/go-github-selfupdate/selfupdate"
 )
 
-const Version = "1.2.3"
+const Version = "2.2.3"
 const slug = "Jyury11/go-update"
 
 func main() {
