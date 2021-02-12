@@ -1,6 +1,0 @@
-2cc6bd52f5fb2e34246104ee35f1e8f9f9587ada4ac3a9469aaa73677f594d1a  go-update_v0.1.0-next_Linux_arm64.tar.gz
-6a3fc0ba1f13b3ec86bc560b3478f3f1b499ff058579244457c37ae53a76ba2d  go-update_v0.1.0-next_Windows_i386.tar.gz
-a8b7d9ecdefc708a812fdee69cfce4a62c7f25f3840ee14338903e6ae50d36ea  go-update_v0.1.0-next_Linux_x86_64.tar.gz
-b753f4aaa1f54bab51e9462c3c22730ddaded8a76b10f03c8237d63a90dbf903  go-update_v0.1.0-next_Linux_i386.tar.gz
-dda13b831eb37ecc623dc1d40497732ac6cf2f10a0aa77a1741f90777a22321e  go-update_v0.1.0-next_Darwin_x86_64.tar.gz
-fe9160314ba4e7d9948a24facd9914a95a53f0aa2d95262493e62c63b8c673d2  go-update_v0.1.0-next_Windows_x86_64.tar.gz
