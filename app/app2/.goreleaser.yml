@@ -12,9 +12,10 @@ builds:
       - windows
       - darwin
 archives:
-  id: go-update
-  name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
-  replacements:
+  -
+    id: go-update
+    name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+    replacements:
       darwin: Darwin
       linux: Linux
       windows: Windows
