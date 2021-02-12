@@ -15,8 +15,8 @@ func main() {
 	println("Ba dum, tss!")
 
 	v := semver.MustParse(Version)
-	latest, err := selfupdate.UpdateSelf(v, slug)
+	latest, _ := selfupdate.UpdateSelf(v, slug)
 	if latest.Version.Equals(v) {
 		log.Println("some version")
+	}
 }
-
