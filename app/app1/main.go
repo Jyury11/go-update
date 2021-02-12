@@ -18,5 +18,7 @@ func main() {
 	latest, _ := selfupdate.UpdateSelf(v, slug)
 	if latest.Version.Equals(v) {
 		log.Println("some version")
+	} else {
+		log.Println("update version")
 	}
 }
