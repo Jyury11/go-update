@@ -16,13 +16,16 @@ func main() {
 
 	v := semver.MustParse(Version)
 	latest, err := selfupdate.UpdateSelf(v, slug)
+	log.Println(latest)
+	log.Println(latest.Version)
+	log.Println(latest.Name)
+	log.Println(latest.RepoName)
+	log.Println(latest.RepoOwner)
+	log.Println(latest.Version.Value())
+	log.Println(err)
 	if latest.Version.Equals(v) {
-		log.Println(latest)
-		log.Println(err)
 		log.Println("some version")
 	} else {
-		log.Println(latest)
-		log.Println(err)
 		log.Println("update version")
 	}
 }
