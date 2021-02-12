@@ -14,7 +14,7 @@ const slug = "Jyury11/go-update"
 func main() {
 	selfupdate.EnableLog()
 
-	println("Ba dum, tss!")
+	println("Ba dum, tss!!!!!!!!!!")
 
 	v := semver.MustParse(Version)
 	latest, err := selfupdate.UpdateSelf(v, slug)
