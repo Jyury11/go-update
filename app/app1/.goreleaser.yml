@@ -29,7 +29,7 @@ builds:
     ignore:
       - goos: darwin
         goarch: 386
-archive:
-  format_overrides:
+archives:
+  - format_overrides:
     - goos: windows
       format: zip
