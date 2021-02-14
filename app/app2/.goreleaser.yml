@@ -1,9 +1,9 @@
 # # This is an example .goreleaser.yml file with some sane defaults.
 # # Make sure to check the documentation at http://goreleaser.com
-# before:
-#   hooks:
-#     # You may remove this if you don't use go modules.
-#     - go mod download
+before:
+  hooks:
+    # You may remove this if you don't use go modules.
+    - go mod download
 # builds:
 #   - env:
 #       - CGO_ENABLED=0
