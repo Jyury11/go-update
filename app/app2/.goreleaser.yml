@@ -29,6 +29,7 @@ builds:
     ignore:
       - goos: darwin
         goarch: 386
+    binary: app1
 archives:
   - format_overrides:
     - goos: windows
